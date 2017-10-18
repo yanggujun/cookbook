@@ -1,4 +1,4 @@
-# bash color
+### bash color
 
     Black        0;30     Dark Gray     1;30
 
@@ -22,4 +22,10 @@ And then use them like this in your script:
 
 ```bash
   echo -e "I \033[0;31mlove\033[0m github"
+```
+
+
+### vim
+```
+    :<startline>,<endline>norm <vim commands>
 ```
