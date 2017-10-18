@@ -27,5 +27,21 @@ And then use them like this in your script:
 
 ### vim
 ```
+    # run commands on each line
     :<startline>,<endline>norm <vim commands>
+    
+    # change case of the whole word
+    g~iw
+    
+    # split horizontally
+    :split
+    
+    # split vertically
+    :vsplit
+    
+    # replace a with b in the file
+    :%s/a/b/g
+    
+    # replace a with b in a range
+    :<startline>,<endline>s/a/b/g
 ```
