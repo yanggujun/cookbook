@@ -44,4 +44,26 @@ And then use them like this in your script:
     
     # replace a with b in a range
     :<startline>,<endline>s/a/b/g
+    
+    #delete every line that contains pattern
+    :<range>g/<pattern>/d
+    
+    #delete every line that does not contain pattern
+    :<range>v/<pattern>/d
+    
+    #run command every line
+    :<range>norm <vim_command>
+```
+
+### git
+
+```
+    git checkout -b <new_branch>
+    
+    git remote show origin
+    
+    git branch -r
+    
+    #push a local branch to remote, -u is the short-cut for --set-upstream
+    git push -u origin <new_branch> 
 ```
