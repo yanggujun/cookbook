@@ -66,4 +66,10 @@ And then use them like this in your script:
     
     #push a local branch to remote, -u is the short-cut for --set-upstream
     git push -u origin <new_branch> 
+    
+    #delete a local branch. -d is the short-cut for --delete
+    git branch -d <branch_name>
+    
+    #delete a remote branch
+    git push origin -d <branch_name>
 ```
